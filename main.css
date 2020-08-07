@@ -1,0 +1,242 @@
+a, a:hover, a:focus, a:active {
+    color: rgb(99, 34, 29);
+    text-decoration: underline
+}
+a:visited {
+    background-color: rgb(99, 34, 29);
+    color: rgb(255, 255, 255);
+}
+a:hover {
+    background-color: rgb(168, 68, 60)
+}
+
+body {
+    background-image: url("robot.png");
+}
+
+.material-icons {
+    vertical-align:-14%
+}
+
+ul {
+    font-size: 20px;
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+    width: max-content;
+    overflow: hidden;
+    font-family: "Francois one", sans-serif;
+    background-color: rgb(245, 182, 175);
+    text-align: centre;
+    border: 11px double rgb(99, 34, 29);
+    border-radius: 19px;
+    display: flexbox initial;
+    line-height: 2em;
+}  
+li {
+    float: left;
+}  
+li a {
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}  
+li a:hover:not {
+    background-color: rgb(255, 255, 255);
+    color: black;
+  }
+li a:visited{
+    color: rgb(99, 34, 29)
+}
+.nav .current {
+    background-color: rgb(245, 239, 239);
+    color: black;
+}
+
+.icon {
+    width:170px;
+    height:170px;
+
+    border-radius: 50%;
+    vertical-align: middle
+}
+
+h1 {
+    font-family: "Francois one", sans-serif;
+    background-color: rgb(245, 182, 175, 0.9);
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    font-size: 60px;
+    padding: 20px;
+    margin: 35px;
+    border: 11px double rgb(132, 43, 39);
+    border-radius: 200px;
+    line-height: 1em
+}
+
+
+h2 {
+    font-family: "Francois one", sans-serif;
+    background-color: rgb(245, 182, 175, 0.9);
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+    margin: 30px;
+    border: 11px double rgb(132, 43, 39);
+    border-radius: 200px;
+    display: inline-block;
+	padding: 10px;
+    line-height: 1em
+}
+
+h3 {
+    font-family: "Francois one", sans-serif;
+    background-color: rgb(245, 182, 175, 0.8);
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    border: 9px double rgb(132, 43, 39);
+    border-radius: 200px;
+    display: inline-block;
+	padding: 5px;
+    line-height: 3em
+}
+
+h4 {    
+    font-family: "Francois one", sans-serif;
+    font-size: 17px;
+    text-decoration: underline;
+
+}
+.about_me {
+    font-family: "Francois one", sans-serif;
+    font-size: 18px;
+    background-color: rgba(245, 182, 175, 0.9);
+    padding: 20px;
+    margin: 10px, 20px, 20px, 20px;
+    text-align: centre;
+    border: 13px double rgb(132, 43, 39);
+    border-radius: 19px;
+}
+
+.purpose {
+    font-family: "Francois one", sans-serif;
+    font-size: 16px;
+    background-color: rgba(245, 182, 175, 0.9);
+    padding: 25px;
+    margin: 30px;
+    text-align: centre;
+    border: 11px double rgb(132, 43, 39);
+    border-radius: 19px;
+}
+
+.trello {
+    border: 1px;
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+.center {
+    text-align: center;
+}
+
+.review {
+    font-family: "Francois one", sans-serif;
+    font-size: 16px;
+    background-color: rgba(245, 182, 175, 0.9);
+    padding: 25px;
+    margin: 30px;
+    text-align: centre;
+    border: 11px double rgb(132, 43, 39);
+    border-radius: 19px;
+}
+
+.tablet {
+    text-align: centre;
+    border: 11px double rgb(132, 43, 39);
+    border-radius: 19px;
+
+}
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    display: inline-flexbox;
+    width: 100%;
+}
+table td {
+    padding: 1rem;
+    border: 5px solid rgb(132, 43, 39); 
+    text-align: center;
+}
+table tr:first-child td {
+    border-top: 0;
+}
+table tr td:first-child {
+    border-left: 0;
+}
+table tr:last-child td {
+    border-bottom: 0;
+}
+table tr td:last-child {
+    border-right: 0;
+}
+th {
+    font-size: 30px;
+    text-decoration: underline;
+    border: 6px solid rgb(132, 43, 39);
+} 
+tr:nth-child(2n+1) {background-color: rgb(132, 43, 39, 0.6)}
+
+.row {
+    display: flex;
+}
+
+.columncontact {
+    font-family: "Francois one", sans-serif;
+    font-size: 20px;
+    background-color: rgba(245, 182, 175, 0.9);
+    padding: 50px;
+    margin: 30px;
+    text-align: centre;
+    border: 11px double rgb(132, 43, 39);
+    border-radius: 19px;
+    width: 40%;
+}
+
+
+.game {
+    font-family: "Francois one", sans-serif;
+    font-size: 20px;
+    background-color: rgba(245, 182, 175, 0.9);
+    padding: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: centre;
+    border: 11px double rgb(132, 43, 39);
+    border-radius: 19px;
+    width: 90%;
+}
+
+.cv {
+    font-family: "Francois one", sans-serif;
+    font-size: 20px;
+    background-color: rgba(245, 182, 175, 0.9);
+    padding: 6px;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: centre;
+    border: 11px double rgb(132, 43, 39);
+    border-radius: 19px;
+    /* display: inline; */
+    width: 800px;
+}
