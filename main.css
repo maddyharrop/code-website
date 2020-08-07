@@ -223,20 +223,23 @@ tr:nth-child(2n+1) {background-color: rgb(132, 43, 39, 0.6)}
     text-align: centre;
     border: 11px double rgb(132, 43, 39);
     border-radius: 19px;
-    width: 90%;
+    width: 1255px;
 }
 
+iframe {
+    max-height: 200vh;
+    height: 1000px;
+    width: 1250px;
+}
 .cv {
     font-family: "Francois one", sans-serif;
     font-size: 20px;
     background-color: rgba(245, 182, 175, 0.9);
-    padding: 6px;
-    margin-top: 30px;
+    padding: 5px;
     margin-right: auto;
     margin-left: auto;
     text-align: centre;
     border: 11px double rgb(132, 43, 39);
     border-radius: 19px;
-    /* display: inline; */
-    width: 800px;
+    width: 1255px;
 }
